@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+.App {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+}
+body {
+  color: black;
+}
+.Title {
+  text-shadow: 1px 1px 5px rgb(117, 105, 105);
+}
+.subtitle {
+  margin-left: 40%;
+}
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.taskname {
+  width: 100%;
+  background-color: #ec1330;
+}
+.fa-regular {
+  margin: 2%;
+  /* background-color: blue;
+  color: white;
+  border-radius: 7px; */
+}
+.fa-brands {
+  margin: 2%;
+}
+table {
+  text-align: center;
+}
+.div {
+  width: 100%;
+  margin-right: 10%;
+}
+.details {
+  display: inline-block;
+  width: 100%;
+}
+.tableTitle{
+  font-size: large;
+
+}
