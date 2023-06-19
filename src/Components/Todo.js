@@ -49,10 +49,13 @@ function Todo() {
         {
           list.map((elem) => {
             return(
-            <div className="eachItem col-8 mx-auto d-flex justify-content-between" key={elem.id}>
+              <div className="eachItem col-8 mx-auto d-flex justify-content-between" key={elem.id}>
              <h5>{elem.task}</h5>
              <h5>{elem.description}</h5>
-             <span class="material-symbols-outlined" title="Delete Item" onClick={()=>{dispatch(deleteTask(elem.id)), alert("Successfully Deleted")}} >delete</span>
+             <span className="material-symbols-outlined" title="Delete Item" onClick={() => {dispatch(deleteTask(elem.id));alert("Successfully Deleted");}}
+>
+  delete
+</span>
            </div>
             )  
           })
